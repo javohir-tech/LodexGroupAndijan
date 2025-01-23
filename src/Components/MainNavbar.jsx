@@ -36,7 +36,6 @@ export default function MainNavbar() {
                         </Nav>
                         <a href='totel: +998771232904' className='mx-2 navbar-tel'>+998771232904</a>
                         <Form.Select aria-label="Default select example">
-                            <option>uzbek</option>
                             <option value="1">uz</option>
                             <option value="2">ru</option>
                             <option value="3">eng</option>

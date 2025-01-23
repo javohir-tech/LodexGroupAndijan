@@ -1,5 +1,5 @@
 //sections
-import { AboutCards, Banner, Services } from '../Sections'
+import { AboutCards, Banner, FormSection, Portfolio, Services } from '../Sections'
 
 export default function Home() {
   return (
@@ -7,9 +7,13 @@ export default function Home() {
       {/* Banner Section */}
       <Banner />
       {/* About Cards Section*/}
-      <AboutCards/>
+      <AboutCards />
       {/* Services Section  */}
-      <Services/>
+      <Services />
+      {/* Portfoilo Section  */}
+      <Portfolio />
+      {/* FormSection */}
+      <FormSection />
     </>
   )
 }
