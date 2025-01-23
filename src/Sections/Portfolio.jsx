@@ -23,7 +23,7 @@ export default function Portfolio() {
             <PortfolioCard col={7} img={image5} title={"Zamon Travel"} description={"Sayohat uchun mo'jallangan web saytimiz"} link={"https://travel.suvonov-javohir.uz/"}/>
         </div>
         <div className='btn-more text-center mt-5'>
-            <button className='btn btn-primary px-5 py-3'>Ko'proq ko'rish</button>
+            <button className='btn text-light px-5 py-3'>Ko'proq ko'rish</button>
         </div>
     </Container>
   )

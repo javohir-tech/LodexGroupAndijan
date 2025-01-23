@@ -1,4 +1,5 @@
 //sections
+import { Footer } from '../Components'
 import { AboutCards, Banner, FormSection, Portfolio, Services } from '../Sections'
 
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
       <Portfolio />
       {/* FormSection */}
       <FormSection />
+      {/* footer  section */}
+      <Footer />
     </>
   )
 }
