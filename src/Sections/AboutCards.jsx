@@ -15,7 +15,7 @@ import { useTranslation } from 'react-i18next'
 export default function AboutCards() {
     const {t} = useTranslation()
     return (
-        <Container className='mt-5'>
+        <Container className='mt-5' id="about">
             <AboutCard img={Card1} order={false} title={t("about.header1")}  description={t('about.title1')}/>
             <AboutCard img={Card2} order={true} title={t("about.header2")}  description={t('about.title2')}/>
             <AboutCard img={Card3} order={false} title={t("about.header3")}  description={t("about.title3")}/>

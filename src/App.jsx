@@ -20,14 +20,6 @@ function App() {
         {
           index: true,
           element: <Home />
-        },
-        {
-          path: "/ourTeam",
-          element: <Team />
-        },
-        {
-          path: "/blog",
-          element: <Blog />
         }
       ]
     }

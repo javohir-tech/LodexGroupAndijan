@@ -22,7 +22,7 @@ import { useTranslation } from 'react-i18next';
 export default function Services() {
   const {t} = useTranslation()
   return (
-    <Container className='mt-5'>
+    <Container className='mt-5' id='services'>
         <h1 className='text-center section-header'>XIZMATLARIMIZ</h1>
         <div className="row justify-content-evenly mt-3 g-4 icons ">
             <ServicesCard title={t('services.title1')} icon={<TbWorldWww/>}       description={t('services.description1')}/>

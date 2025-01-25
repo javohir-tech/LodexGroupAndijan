@@ -18,6 +18,9 @@ body{
     line-height: 27px;
     color: rgba(2, 18, 6, 1);
 }
+.navbar{
+    z-index: 999;
+}
 
 .navbar-tel {
     font-weight: 700;

@@ -12,7 +12,7 @@ export default function Banner() {
 
     const {t} =useTranslation()
     return (
-        <Container>
+        <Container id='banner'>
             <div className="row align-items-center">
                 <div className="col-md-5 banner-info">
                     <h2>{t('banner.header1')} <span>{t('banner.header2')}</span></h2>

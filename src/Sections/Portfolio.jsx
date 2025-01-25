@@ -18,7 +18,7 @@ export default function Portfolio() {
 
   const {t} = useTranslation()
   return (
-    <Container className='my-5'>
+    <Container className='my-5'id='portfolio'>
         <h1 className='text-center section-header'>{t('portfolio.header')}</h1>
         <div className="row mt-3 g-3">
             <PortfolioCard col={7} img={image1} title={"Buxoro Tabbiy Mahsulot"} description={"bnp Fabric"} link={"http://bnp.suvonov-javohir.uz/"}/>

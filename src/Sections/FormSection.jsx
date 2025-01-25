@@ -98,7 +98,7 @@ export default function FormSection() {
     const {t} = useTranslation()
 
     return (
-        <Container className='mt-5'>
+        <Container className='mt-5' id='contacts'>
             <h1 className='section-header text-center'>{t('form.header')}</h1>
             <div>
                 <h1 className='section-header'>{t('form.header1')}</h1>
