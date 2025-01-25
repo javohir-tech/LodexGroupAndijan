@@ -9,16 +9,18 @@ import { FaGooglePlay, FaApple } from "react-icons/fa";
 
 //image
 import BannerImg from '../assets/bannerImg.png'
+import { useTranslation } from 'react-i18next';
 
 export default function Banner() {
+
+    const {t} =useTranslation()
     return (
         <Container>
             <div className="row align-items-center">
                 <div className="col-md-5 banner-info">
-                    <h2>Develop Your Life With <span>One Step.</span></h2>
+                    <h2>{t('banner.header1')} <span>{t('banner.header2')}</span></h2>
                     <p className='text-secondary'>
-                        Pushing the possibilities of the internet. Good for
-                        the last software. <span>Make it A software night.</span>
+                       {t("banner.title1")} <span> {t("banner.title2")}</span>
                     </p>
                     <InputGroup className="my-4 w-75">
                         <Form.Control

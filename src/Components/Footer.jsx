@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap'
 import { FaInstagram, FaYoutube, FaFacebook, FaTelegram } from "react-icons/fa";
 
 export default function Footer() {
+
     return (
         <footer className='mt-5'>
             <Container>

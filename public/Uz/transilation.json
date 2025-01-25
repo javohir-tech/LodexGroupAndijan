@@ -1,0 +1,16 @@
+{
+    "navbar":{
+        "link1":"Asosiy",
+        "link2":"Biz Haqimizda",
+        "link3":"Xizmatlar",
+        "link4":"Portfolio",
+        "link5":"Jamoamiz",
+        "link6":"Blog"
+    },
+    "banner":{
+        "header1":"Bir qadam bilan hayotingizni",
+        "header2": "rivojlantiring",
+        "title1":"Internet imkoniyatlarini ishga solish. Oxirgi dasturiy ta'minot uchun yaxshi. ",
+        "title2":"Uni dasturiy ta'minot kechasiga aylantiring."
+    }
+}

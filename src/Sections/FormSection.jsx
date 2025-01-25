@@ -100,7 +100,7 @@ export default function FormSection() {
                 <p>Ushbu birlamchi ma’lumotlarni to‘ldirganingizdan so‘ng bizning mas’ul xodimlarimiz siz bilan aloqaga chiqishadi.</p>
             </div>
             <Form onSubmit={handleChange}>
-                <div className='row g-5 mt-4'>
+                <div className='row g-3 mt-4'>
                     <div className="col-md-6">
                         <Form.Group className="mb-3" controlId="company">
                             <Form.Label>Kompaniyangiz nomini kiriting</Form.Label>
