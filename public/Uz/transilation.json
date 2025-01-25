@@ -1,16 +1,27 @@
 {
-    "navbar":{
-        "link1":"Asosiy",
-        "link2":"Biz Haqimizda",
-        "link3":"Xizmatlar",
-        "link4":"Portfolio",
-        "link5":"Jamoamiz",
-        "link6":"Blog"
+    "navbar": {
+        "link1": "Asosiy",
+        "link2": "Biz Haqimizda",
+        "link3": "Xizmatlar",
+        "link4": "Portfolio",
+        "link5": "Jamoamiz",
+        "link6": "Blog"
     },
-    "banner":{
-        "header1":"Bir qadam bilan hayotingizni",
+    "banner": {
+        "header1": "Bir qadam bilan hayotingizni",
         "header2": "rivojlantiring",
-        "title1":"Internet imkoniyatlarini ishga solish. Oxirgi dasturiy ta'minot uchun yaxshi. ",
-        "title2":"Uni dasturiy ta'minot kechasiga aylantiring."
+        "title1": "Internet imkoniyatlarini ishga solish. Oxirgi dasturiy ta'minot uchun yaxshi. ",
+        "title2": "Uni dasturiy ta'minot kechasiga aylantiring."
+    },
+    "about": {
+        "header1":"Kuchli Jamoa",
+        "title1":"LODE-X IT Group jamoasi har tomonlama professional va tajribali bo'lgan mutaxassislardan iborat",
+        "header2":"Hamyonbop narxlar",
+        "title2":"Xizmatlarimiz narxi siz va biznesingiz uchun albatta ma'qul va to'g'ri tanlov bo'ladi.",
+        "header3":"Tezkor va sifatli ish",
+        "title3":"Biz doimo mijozlarimizga oz muddatda mukammal bo'lgan loyihalarni taqdim etamiz"
+    },
+    "services":{
+        
     }
 }

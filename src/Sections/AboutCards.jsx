@@ -8,13 +8,15 @@ import { Container } from 'react-bootstrap'
 import Card1 from '../assets/card1.png'
 import Card2 from '../assets/Card2.png'
 import Card3 from '../assets/Card3.png'
+import { useTranslation } from 'react-i18next'
 
 export default function AboutCards() {
+    const {t} = useTranslation()
     return (
         <Container className='mt-5'>
-            <AboutCard img={Card1} order={false} title={"Kuchli jamoa"}  description={"LODE-X IT Group jamoasi har tomonlama professional va tajribali bo'lgan mutaxassislardan iborat,"  }/>
-            <AboutCard img={Card2} order={true} title={"Hamyonbop narxlar"}  description={"Xizmatlarimiz narxi siz va biznesingiz uchun albatta ma'qul va to'g'ri tanlov bo'ladi."}/>
-            <AboutCard img={Card3} order={false} title={"Tezkor va sifatli ish"}  description={"Biz doimo mijozlarimizga oz muddatda mukammal bo'lgan loyihalarni taqdim etamiz"}/>
+            <AboutCard img={Card1} order={false} title={t("about.header1")}  description={t('about.title1')}/>
+            <AboutCard img={Card2} order={true} title={t("about.header2")}  description={t('about.title2')}/>
+            <AboutCard img={Card3} order={false} title={t("about.header3")}  description={t("about.title3")}/>
         </Container>
     )
 }
