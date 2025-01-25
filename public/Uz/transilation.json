@@ -22,6 +22,53 @@
         "title3":"Biz doimo mijozlarimizga oz muddatda mukammal bo'lgan loyihalarni taqdim etamiz"
     },
     "services":{
-        
+        "header":"XIZMATLARIMIZ",
+        "title1":"Veb-saytlar",
+        "description1":"Korporativ veb saytlardan tortib veb ilovalargacha boʻlgan murakkablikdagi internet saytlarni sifat kafolati bilan ishlab chiqamiz",
+        "title2":"Mobil ilovalar",
+        "description2":"Istalgan qiyinchilikdagi mobil ilovalarni ishlab chiqish va ularni texnik qoʻllab-quvvatlash",
+        "title3":"CRM tizimlar",
+        "description3":"Biznesni va jarayonlarni avtomatlashtirish, kanselyariya ishlarini 100% gacha kamaytiruvchi boshqaruv elektron tizimlarini ishlab chiqish",
+        "title4":"Logo va brending",
+        "description4":"Biznesni ilgari surish uchun asosiy vositalar va marketing materiallari to'plamini noldan yaratish.",
+        "title5":"O'yinlar ishlab chiqarish",
+        "description5":"Xalqaro darajaga mos keladigan har qanday mavzu va murakkablikdagi o'yinlarni ishlab chiqish.",
+        "title6":"Sun'iy intellekt",
+        "description6":"Inson aql-zakovati imkoniyatlariga ega intellektual kompyuter tizimlarini ishlab chiqish",
+        "title7":"Kiber xavfsizlik",
+        "description7":"Tarmoqlar, qurilmalar, kodlar va ma'lumotlardagi zaifliklarni topish va tuzatish.",
+        "title8":"Telegram Bot",
+        "description8":"Telegram botlar mijozlaringiz bilan aloqa qilishga yordam beradi. Telegram botlar har qanday biznes boshlash uchun eng yaxshi tanlov.",
+        "title9":"Internet magazine",
+        "description9":"Mahsulotlaringizni onlayn sotmoqchimisiz? Unda sizga Onlayn Internet Magazin xizmatimizni taklif qilamiz."
+    },
+    "portfolio":{
+        "header":"Portfolio"
+    },
+    "form":{
+        "header":"BIZ BILAN BOG'LANING",
+        "header1":"Contact",
+        "title":"Ushbu birlamchi ma’lumotlarni to‘ldirganingizdan so‘ng bizning mas’ul xodimlarimiz siz bilan aloqaga chiqishadi.",
+        "company":"Kompaniyangiz nomini kiriting",
+        "name":"F.I.SH(Familya, Ism, Sharif)",
+        "tel":"Telefon Raqam",
+        "message":"Loyiha Tasnifi",
+        "mobil":"Mobil Ilovalar",
+        "crm":"CRM tizimlar",
+        "dizayn":"UI&UX dizayn",
+        "game":"O'yinlar ishlab chiqarish",
+        "ai":"Sun'iy Intlekt",
+        "cyber":"Kiberxavfsizlik",
+        "telegrambot":"Telegram Bot",
+        "marget":"Internet Magazin",
+        "button":"Yuborish",
+        "modalheader":"Habar Yuborildi",
+        "modalbody":"Xabaringiz Muvafaqiyatli Yuborildi Biz Siz Bilan Tez Orada Aloqaga Chiqamiz ",
+        "modalbutton":"Yopish"
+    },
+    "footer":{
+        "header1":"Manzil:",
+        "header2":"Bosh Sahifa ",
+        "header3":"Ijtimoy Tarmoqlar"
     }
 }

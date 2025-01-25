@@ -4,6 +4,9 @@ import { Button, Container, Form, Modal, Spinner } from 'react-bootstrap'
 //react
 import { useState } from 'react'
 
+//react i18next
+import { useTranslation } from 'react-i18next';
+
 export default function FormSection() {
     //modal
     const [show, setShow] = useState(false);
@@ -92,30 +95,32 @@ export default function FormSection() {
             })
     }
 
+    const {t} = useTranslation()
+
     return (
         <Container className='mt-5'>
-            <h1 className='section-header text-center'>BIZ BILAN BOG'LANING</h1>
+            <h1 className='section-header text-center'>{t('form.header')}</h1>
             <div>
-                <h1 className='section-header'>Contact:</h1>
-                <p>Ushbu birlamchi ma’lumotlarni to‘ldirganingizdan so‘ng bizning mas’ul xodimlarimiz siz bilan aloqaga chiqishadi.</p>
+                <h1 className='section-header'>{t('form.header1')}</h1>
+                <p>{t('form.title')}</p>
             </div>
             <Form onSubmit={handleChange}>
                 <div className='row g-3 mt-4'>
                     <div className="col-md-6">
                         <Form.Group className="mb-3" controlId="company">
-                            <Form.Label>Kompaniyangiz nomini kiriting</Form.Label>
+                            <Form.Label>{t('company')}</Form.Label>
                             <Form.Control type="text" value={company} required onChange={(e) => setCompany(e.target.value)} />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="name">
-                            <Form.Label>F.I.SH(Familya, Ism, Sharif)</Form.Label>
+                            <Form.Label>{t('form.name')}</Form.Label>
                             <Form.Control type="text" value={name} required onChange={(e) => setName(e.target.value)} />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="tel">
-                            <Form.Label>Telefon Raqam</Form.Label>
+                            <Form.Label>{t('form.tel')}</Form.Label>
                             <Form.Control type="number" value={tel} required onChange={(e) => setTel(e.target.value)} />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="message">
-                            <Form.Label>Loyiha Tavsifi</Form.Label>
+                            <Form.Label>{t('form.message')}</Form.Label>
                             <Form.Control as="textarea" rows={3} required value={message} onChange={(e) => setMessage(e.target.value)} />
                         </Form.Group>
                     </div>
@@ -124,65 +129,65 @@ export default function FormSection() {
                         <Form.Check className="d-flex align-items-center gap-3" // prettier-ignore
                             type="checkbox"
                             id="mobil"
-                            label="Mobil Ilovalar"
+                            label={t('form.mobil')}
                             onChange={()=>setMobil(true)}
                         />
                         <Form.Check className="d-flex align-items-center gap-3" // prettier-ignore
                             type="checkbox"
                             id="crm"
-                            label="CRM tizimlar"
+                            label={t('form.crm')}
                             onChange={()=>setCrm(true)}
                         />
                         <Form.Check className="d-flex align-items-center gap-3" // prettier-ignore
                             type="checkbox"
                             id="design"
-                            label="UI&UX dizayn"
+                            label={t('form.dizayn')}
                             onClick={()=>setDizayn(true)}
                         />
                         <Form.Check className="d-flex align-items-center gap-3" // prettier-ignore
                             type="checkbox"
                             id="game"
-                            label="O'yinlar ishlab chiqarish"
+                            label={t('form.game')}
                             onClick={()=>setGame(true)}
                         />
                         <Form.Check className="d-flex align-items-center gap-3" // prettier-ignore
                             type="checkbox"
                             id="ai"
-                            label="Sun'iy Intlekt"
+                            label={t('form.ai')}
                             onClick={()=>setAi(true)}
                         />
                         <Form.Check className="d-flex align-items-center gap-3" // prettier-ignore
                             type="checkbox"
                             id="kiber"
-                            label="Kiberxavfsizlik"
+                            label={t('form.cyber')}
                             onClick={()=>setCyber(true)}
                         />
                         <Form.Check className="d-flex align-items-center gap-3" // prettier-ignore
                             type="checkbox"
                             id="bot"
-                            label="Telegram Bot"
+                            label={t('form.telegrambot')}
                             onClick={()=>setTelegramBot(true)}
                         />
                         <Form.Check className="d-flex align-items-center gap-3" // prettier-ignore
                             type="checkbox"
                             id="shop"
-                            label="Internet Magazin"
+                            label={t('form.button')}
                             onClick={()=>setMarget(true)}
                         />
                     </div>
                 </div>
                 <div className='text-center'>
-                    <button className='main-btn text-light px-5 py-3 border-0 rounded mt-3'>{loading ? <Spinner animation="border" variant="light" /> : 'Send'}</button>
+                    <button className='main-btn text-light px-5 py-3 border-0 rounded mt-3'>{loading ? <Spinner animation="border" variant="light" /> : t('form.button')}</button>
                 </div>
             </Form>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Habar Yuborildi </Modal.Title>
+                    <Modal.Title>{t('form.modalheader')}</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Xabaringiz Muvafaqiyatli Yuborildi Biz Siz Bilan Tez Orada Aloqaga Chiqamiz </Modal.Body>
+                <Modal.Body>{t('form.modalbody')}</Modal.Body>
                 <Modal.Footer>
                     <Button variant="primary" onClick={handleClose}>
-                      Yopish
+                      {t('form.modalbutton')}
                     </Button>
                 </Modal.Footer>
             </Modal>

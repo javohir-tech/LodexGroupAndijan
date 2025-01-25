@@ -8,6 +8,8 @@ import { Container } from 'react-bootstrap'
 import Card1 from '../assets/card1.png'
 import Card2 from '../assets/Card2.png'
 import Card3 from '../assets/Card3.png'
+
+//language change
 import { useTranslation } from 'react-i18next'
 
 export default function AboutCards() {

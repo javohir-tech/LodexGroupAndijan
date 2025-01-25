@@ -15,21 +15,26 @@ import { CgDanger } from "react-icons/cg";
 import { FaRobot } from "react-icons/fa";
 import { FiShoppingBag } from "react-icons/fi";
 
+//language change
+import { t } from 'i18next';
+import { useTranslation } from 'react-i18next';
+
 export default function Services() {
+  const {t} = useTranslation()
   return (
     <Container className='mt-5'>
         <h1 className='text-center section-header'>XIZMATLARIMIZ</h1>
         <div className="row justify-content-evenly mt-3 g-4 icons ">
-            <ServicesCard title={"Veb-saytlar"} icon={<TbWorldWww/>} description={"Korporativ veb saytlardan tortib veb ilovalargacha boʻlgan murakkablikdagi internet saytlarni sifat kafolati bilan ishlab chiqamiz"}/>
-            <ServicesCard title={"Mobil ilovalar"} icon={<CiMobile2/>} description={"Istalgan qiyinchilikdagi mobil ilovalarni ishlab chiqish va ularni texnik qoʻllab-quvvatlash"}/>
-            <ServicesCard title={"CRM tizimlar"} icon={<SiCivicrm/>} description={"Biznesni va jarayonlarni avtomatlashtirish, kanselyariya ishlarini 100% gacha kamaytiruvchi boshqaruv elektron tizimlarini  ishlab  chiqish"} />
-            <ServicesCard title={"Logo va brending"} icon={<IoLogoBitbucket/>} description={"Biznesni ilgari surish uchun asosiy vositalar va marketing materiallari to'plamini noldan yaratish."} />
-            <ServicesCard title={"O'yinlar ishlab chiqarish"} icon={<IoGameController/>} description={"Xalqaro darajaga mos keladigan har qanday mavzu va murakkablikdagi o'yinlarni ishlab chiqish."} />
-            <ServicesCard title={"Sun'iy intellekt"} icon={<RiRobot2Fill/>} description={"Inson aql-zakovati imkoniyatlariga ega intellektual kompyuter tizimlarini ishlab chiqish"} />
-            <ServicesCard title={"Kiber xavfsizlik"} icon={<CgDanger/>} description={"Tarmoqlar, qurilmalar, kodlar va ma'lumotlardagi zaifliklarni topish va tuzatish."} />
-            <ServicesCard title={"Telegram Bot"} icon={<FaRobot/>} description={"Telegram botlar mijozlaringiz bilan aloqa qilishga yordam beradi. Telegram botlar har qanday biznes boshlash uchun eng yaxshi tanlov."} />
-            <ServicesCard title={"Internet magazine"} icon={<FiShoppingBag/>} description={"Mahsulotlaringizni onlayn sotmoqchimisiz? Unda sizga Onlayn Internet Magazin xizmatimizni taklif qilamiz."} />
-        </div>
+            <ServicesCard title={t('services.title1')} icon={<TbWorldWww/>}       description={t('services.description1')}/>
+            <ServicesCard title={t('services.title2')} icon={<CiMobile2/>}        description={t('services.description2')}/>
+            <ServicesCard title={t('services.title3')} icon={<SiCivicrm/>}        description={t('services.description3')} />
+            <ServicesCard title={t('services.title4')} icon={<IoLogoBitbucket/>}  description={t('services.description4')} />
+            <ServicesCard title={t('services.title5')} icon={<IoGameController/>} description={t('services.description5')} />
+            <ServicesCard title={t('services.title6')} icon={<RiRobot2Fill/>}     description={t('services.description6')} />
+            <ServicesCard title={t('services.title7')} icon={<CgDanger/>}         description={t('services.description7')} />
+            <ServicesCard title={t('services.title8')} icon={<FaRobot/>}          description={t('services.description8')} />
+            <ServicesCard title={t('services.title9')} icon={<FiShoppingBag/>}    description={t('services.description9')} />
+        </div>  
     </Container>
   )
 }

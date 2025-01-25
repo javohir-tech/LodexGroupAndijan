@@ -1,5 +1,74 @@
 {
-    "navbar":{
-        "link":"Home"
+    "navbar": {
+        "link1": "Home",
+        "link2": "About Us",
+        "link3": "Services",
+        "link4": "Portfolio",
+        "link5": "Our Team",
+        "link6": "Blog"
+    },
+    "banner": {
+        "header1": "Take a step to improve your",
+        "header2": "life",
+        "title1": "Harnessing the power of the internet. Best for the latest software.",
+        "title2": "Turn it into a software night."
+    },
+    "about": {
+        "header1":"Strong Team",
+        "title1":"The LODE-X IT Group team consists of specialists who are professional and experienced in all aspects",
+        "header2":"Affordable Prices",
+        "title2":"The cost of our services will undoubtedly be reasonable and the right choice for you and your business.",
+        "header3":"Fast and Quality Work",
+        "title3":"We always deliver excellent projects to our clients in a short time."
+    },
+    "services":{
+        "header":"OUR SERVICES",
+        "title1":"Websites",
+        "description1":"We develop websites of varying complexity, from corporate websites to web applications, with a quality guarantee.",
+        "title2":"Mobile Applications",
+        "description2":"Developing mobile applications of any complexity and providing technical support for them.",
+        "title3":"CRM Systems",
+        "description3":"Developing electronic management systems to automate business processes and reduce paperwork by up to 100%.",
+        "title4":"Logo and Branding",
+        "description4":"Creating essential tools and marketing materials to promote your business from scratch.",
+        "title5":"Game Development",
+        "description5":"Developing games of any theme and complexity that meet international standards.",
+        "title6":"Artificial Intelligence",
+        "description6":"Developing intellectual computer systems with human intelligence capabilities.",
+        "title7":"Cybersecurity",
+        "description7":"Identifying and fixing vulnerabilities in networks, devices, code, and data.",
+        "title8":"Telegram Bot",
+        "description8":"Telegram bots help communicate with your customers. Telegram bots are the best choice for starting any business.",
+        "title9":"Online Store",
+        "description9":"Do you want to sell your products online? Then we offer you our Online Store service."
+    },
+    "portfolio":{
+        "header":"Portfolio"
+    },
+    "form":{
+        "header":"CONTACT US",
+        "header1":"Contact",
+        "title":"After filling out this preliminary information, our responsible employees will contact you.",
+        "company":"Enter your company name",
+        "name":"Full Name",
+        "tel":"Phone Number",
+        "message":"Project Description",
+        "mobil":"Mobile Applications",
+        "crm":"CRM Systems",
+        "dizayn":"UI&UX Design",
+        "game":"Game Development",
+        "ai":"Artificial Intelligence",
+        "cyber":"Cybersecurity",
+        "telegrambot":"Telegram Bot",
+        "marget":"Online Store",
+        "button":"Send",
+        "modalheader":"Message Sent",
+        "modalbody":"Your message has been successfully sent. We will contact you shortly.",
+        "modalbutton":"Close"
+    },
+    "footer":{
+        "header1":"Address:",
+        "header2":"Home Page",
+        "header3":"Social Media"
     }
 }
