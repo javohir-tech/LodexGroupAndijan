@@ -10,8 +10,8 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 // transilation
 import { useTranslation } from "react-i18next";
 
-// react router dom
-import { NavLink } from "react-router-dom";
+//brend
+import logo from '../assets/logo.jpg'
 
 export default function MainNavbar() {
 
@@ -49,7 +49,7 @@ export default function MainNavbar() {
     <Navbar expand={expand} className={navbarFixed ? "bg-white shadow-sm py-3 position-fixed w-100" : "bg-white shadow-sm py-3 "}>
       <Container>
         <Navbar.Brand href="#banner" className="fw-bold fs-4 text-primary">
-          Lodex Group
+          <img src={logo} className="img-fluid" alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
         <Navbar.Offcanvas

@@ -7,8 +7,8 @@
         "link5": "Kontaktlar"
     },
     "banner": {
-        "header1": "Bir qadam bilan hayotingizni",
-        "header2": "rivojlantiring",
+        "header1": "Biznesingizni keyingi bosqichga ",
+        "header2": "olib chiqing",
         "title1": "Internet imkoniyatlarini ishga solish. Oxirgi dasturiy ta'minot uchun yaxshi. ",
         "title2": "Uni dasturiy ta'minot kechasiga aylantiring."
     },
@@ -20,7 +20,7 @@
         "header3":"Tezkor va sifatli ish",
         "title3":"Biz doimo mijozlarimizga oz muddatda mukammal bo'lgan loyihalarni taqdim etamiz"
     },
-    "services":{
+    "   ":{
         "header":"XIZMATLARIMIZ",
         "title1":"Veb-saytlar",
         "description1":"Korporativ veb saytlardan tortib veb ilovalargacha boʻlgan murakkablikdagi internet saytlarni sifat kafolati bilan ishlab chiqamiz",

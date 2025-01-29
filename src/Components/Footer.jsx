@@ -16,13 +16,13 @@ export default function Footer() {
             <Container>
                 <div className='row'>
                     <div className='col-md-4'>
-                        <h2>{t('header.header1')}</h2>
+                        <h2>{t('footer.header1')}</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit fuga ea repudiandae sed rerum, ex quo non ullam optio iste ab est tempore nisi ad voluptatibus, qui totam nobis!
                         </p>
                     </div>
                     <div className="col-md-4">
-                        <h2>{t('header.header2')}</h2>
+                        <h2>{t('footer.header2')}</h2>
                         <ul>
                             <li><a href="">{t('navbar.link1')}</a></li>
                             <li><a href="">{t('navbar.link2')}</a></li>
@@ -33,7 +33,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className="col-md-4">
-                        <h2>{t('header.header3')}</h2>
+                        <h2>{t('footer.header3')}</h2>
                         <div className='d-flex gap-3 mt-3'>
                             <FaInstagram/>
                             <FaYoutube/>

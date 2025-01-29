@@ -23,7 +23,7 @@ export default function Services() {
   const {t} = useTranslation()
   return (
     <Container className='mt-5' id='services'>
-        <h1 className='text-center section-header'>XIZMATLARIMIZ</h1>
+        <h1 className='text-center section-header'>{t('services.header')}</h1>
         <div className="row justify-content-evenly mt-3 g-4 icons ">
             <ServicesCard title={t('services.title1')} icon={<TbWorldWww/>}       description={t('services.description1')}/>
             <ServicesCard title={t('services.title2')} icon={<CiMobile2/>}        description={t('services.description2')}/>

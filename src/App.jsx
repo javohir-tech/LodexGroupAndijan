@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { MainLayout } from './Layout';
 
 //pages
-import { Blog, Home, Team } from './Pages';
+import {  Home } from './Pages';
 
 function App() {
 
