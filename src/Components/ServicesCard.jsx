@@ -2,6 +2,7 @@ import React from 'react'
 
 //AOS
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 //react
 import { useEffect } from 'react';

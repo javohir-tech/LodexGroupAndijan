@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next';
 
 //AOS
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 //react
 import { useEffect } from 'react';
