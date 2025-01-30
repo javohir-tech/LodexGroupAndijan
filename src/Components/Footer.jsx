@@ -37,7 +37,7 @@ export default function Footer() {
                         <div className='d-flex gap-3 mt-3'>
                             <FaInstagram/>
                             <FaYoutube/>
-                            <FaFacebook/>a
+                            <FaFacebook/>
                             <FaTelegram/>
                         </div>
                     </div>
