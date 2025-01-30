@@ -3,10 +3,10 @@
 //icons
 import { CgArrowTopRight } from "react-icons/cg";
 
-export default function PortfolioCard({title, description, col, img , link}) {
+export default function PortfolioCard({title, description, col, img , link, oas}) {
     return (
-        <   >
-        <div className={`col-md-${col} portfolio-card position-relative`}>
+        < >
+        <div data-aos={oas} data-aos-anchor-placement="bottom-bottom" className={`col-md-${col} portfolio-card position-relative`}>
             <a href={link} target="_blank">
             <img src={img} className="img-fluid h-100 w-100" alt="image  is not  defiendt " />
             </a>

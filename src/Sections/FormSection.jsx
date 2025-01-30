@@ -72,7 +72,7 @@ export default function FormSection() {
         fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
             method: "POST",
             headers: {
-                "COntent-Type": "application/json"
+                "Content-Type": "application/json"
             },
             body: JSON.stringify({
                 chat_id: bot_id,

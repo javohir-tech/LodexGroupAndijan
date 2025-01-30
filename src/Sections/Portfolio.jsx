@@ -26,13 +26,13 @@ export default function Portfolio() {
         <h1 className='text-center section-header'>{t('portfolio.header')}</h1>
         <div className="row mt-3 g-3">
 
-            <PortfolioCard col={5} img={image6} title={"Mutola uchun"} description={"mutaloa qilish uchun"} link={"https://book.uz/"}/>
-            <PortfolioCard col={7} img={image7} title={"Andijon Media Ta'lim"} description={"Andijon o'quv markazi"} link={"https://andpi.netlify.app/"}/>
-            <PortfolioCard col={7} img={image1} title={"Buxoro Tabbiy Mahsulot"} description={"bnp Fabric"} link={"http://bnp.suvonov-javohir.uz/"}/>
-            <PortfolioCard col={5} img={image3} title={"Targetolok"} description={"Izzatbek Targetolok"} link={"https://targelok.suvonov-javohir.uz/"}/>
-            <PortfolioCard col={5} img={image4} title={"Images"} description={"Images"} link={"http://suvonov-javohir.uz"}/>
-            <PortfolioCard col={7} img={image2} title={"Avto Zoom"} description={"Avto Zoom Rental"} link={"https://www.autozoomrental.com/"}/>
-            <PortfolioCard col={7} img={image5} title={"Zamon Travel"} description={"Sayohat uchun mo'jallangan web saytimiz"} link={"https://travel.suvonov-javohir.uz/"}/>
+            <PortfolioCard oas={"fade-up"} col={5} img={image6} title={"Internet Do'kon"} description={"mutaloa qilish uchun"} link={"https://book.uz/"}/>
+            <PortfolioCard oas={"fade-up"} col={7} img={image7} title={"Andijon Texnikum"} description={"Andijon o'quv markazi"} link={"https://andpi.netlify.app/"}/>
+            <PortfolioCard oas={"fade-up"} col={7} img={image1} title={"Buxoro Tabbiy Mahsulot"} description={"bnp Fabric"} link={"http://bnp.suvonov-javohir.uz/"}/>
+            <PortfolioCard oas={"fade-up"} col={5} img={image3} title={"Targetolok"} description={"Izzatbek Targetolok"} link={"https://targelok.suvonov-javohir.uz/"}/>
+            <PortfolioCard oas={"fade-up"} col={5} img={image4} title={"Images"} description={"Images"} link={"http://suvonov-javohir.uz"}/>
+            <PortfolioCard oas={"fade-up"} col={7} img={image2} title={"Avto Zoom"} description={"Avto Zoom Rental"} link={"https://www.autozoomrental.com/"}/>
+            <PortfolioCard oas={"fade-up"} col={7} img={image5} title={"Zamon Travel"} description={"Sayohat uchun mo'jallangan web saytimiz"} link={"https://travel.suvonov-javohir.uz/"}/>
         </div>
         <div className='btn-more text-center mt-5'>
             <button className='btn text-light px-5 py-3'>Ko'proq ko'rish</button>

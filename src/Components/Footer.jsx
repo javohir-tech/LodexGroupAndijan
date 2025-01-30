@@ -18,7 +18,7 @@ export default function Footer() {
                     <div className='col-md-4'>
                         <h2>{t('footer.header1')}</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit fuga ea repudiandae sed rerum, ex quo non ullam optio iste ab est tempore nisi ad voluptatibus, qui totam nobis!
+                            {t('footer.address')}
                         </p>
                     </div>
                     <div className="col-md-4">
@@ -37,7 +37,7 @@ export default function Footer() {
                         <div className='d-flex gap-3 mt-3'>
                             <FaInstagram/>
                             <FaYoutube/>
-                            <FaFacebook/>
+                            <FaFacebook/>a
                             <FaTelegram/>
                         </div>
                     </div>
